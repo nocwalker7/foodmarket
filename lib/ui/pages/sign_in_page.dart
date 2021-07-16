@@ -81,7 +81,7 @@ class _SignInPageState extends State<SignInPage> {
                         color: mainColor,
                         child: Text('Sign In',
                             style: GoogleFonts.poppins(
-                                color: Colors.white,
+                                color: Colors.black,
                                 fontWeight: FontWeight.w500)),
                       )),
             Container(

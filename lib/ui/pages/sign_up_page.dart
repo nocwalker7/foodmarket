@@ -20,6 +20,7 @@ class _SignUpPageState extends State<SignUpPage> {
         },
         child: Column(
           children: [
+            // image profile
             Container(
               width: 110,
               height: 110,
@@ -37,6 +38,7 @@ class _SignUpPageState extends State<SignUpPage> {
                         fit: BoxFit.cover)),
               ),
             ),
+            // form isian nama
             Container(
               width: double.infinity,
               margin: EdgeInsets.fromLTRB(defaultMargin, 16, defaultMargin, 6),
@@ -60,6 +62,7 @@ class _SignUpPageState extends State<SignUpPage> {
                     hintText: 'Type your full name'),
               ),
             ),
+            // form isian email
             Container(
               width: double.infinity,
               margin: EdgeInsets.fromLTRB(defaultMargin, 26, defaultMargin, 6),
@@ -83,6 +86,7 @@ class _SignUpPageState extends State<SignUpPage> {
                     hintText: 'Type your email address'),
               ),
             ),
+            // form isian password
             Container(
               width: double.infinity,
               margin: EdgeInsets.fromLTRB(defaultMargin, 16, defaultMargin, 6),
@@ -106,20 +110,23 @@ class _SignUpPageState extends State<SignUpPage> {
                     hintText: 'Type your password'),
               ),
             ),
+            // tombol sign up
             Container(
                 width: double.infinity,
                 margin: EdgeInsets.only(top: 24),
                 height: 45,
                 padding: EdgeInsets.symmetric(horizontal: defaultMargin),
                 child: RaisedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Get.to(AddressPage());
+                  },
                   elevation: 0,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8)),
                   color: mainColor,
-                  child: Text('Sign Up',
+                  child: Text('Continue',
                       style: GoogleFonts.poppins(
-                          color: Colors.white, fontWeight: FontWeight.w500)),
+                          color: Colors.black, fontWeight: FontWeight.w500)),
                 )),
           ],
         ));
