@@ -1,6 +1,6 @@
 {
-    "name": "foodmarker",
-    "short_name": "foodmarker",
+    "name": "foodmarket",
+    "short_name": "foodmarket",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

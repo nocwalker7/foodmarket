@@ -1,4 +1,4 @@
-# foodmarker
+# foodmarket
 
 A new Flutter project.
 
