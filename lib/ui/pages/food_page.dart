@@ -11,6 +11,7 @@ class _FoodPageState extends State<FoodPage> {
     return ListView(children: [
       Column(
         children: [
+          // Header
           Container(
             padding: EdgeInsets.symmetric(horizontal: defaultMargin),
             color: Colors.white,
@@ -44,7 +45,9 @@ class _FoodPageState extends State<FoodPage> {
                     ))
               ],
             ),
-          )
+          ),
+          //List of Food
+          FoodCard()
         ],
       )
     ]);
