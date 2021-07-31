@@ -69,10 +69,12 @@ class _SignInPageState extends State<SignInPage> {
                 height: 45,
                 padding: EdgeInsets.symmetric(horizontal: defaultMargin),
                 child: isLoading
+                    // ignore: dead_code
                     ? SpinKitFadingCircle(
                         size: 45,
                         color: mainColor,
                       )
+                    // ignore: deprecated_member_use
                     : RaisedButton(
                         onPressed: () {},
                         elevation: 0,
@@ -90,10 +92,12 @@ class _SignInPageState extends State<SignInPage> {
                 height: 45,
                 padding: EdgeInsets.symmetric(horizontal: defaultMargin),
                 child: isLoading
+                    // ignore: dead_code
                     ? SpinKitFadingCircle(
                         size: 45,
                         color: mainColor,
                       )
+                    // ignore: deprecated_member_use
                     : RaisedButton(
                         onPressed: () {
                           Get.to(SignUpPage());

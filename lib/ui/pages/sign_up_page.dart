@@ -116,6 +116,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 margin: EdgeInsets.only(top: 24),
                 height: 45,
                 padding: EdgeInsets.symmetric(horizontal: defaultMargin),
+                // ignore: deprecated_member_use
                 child: RaisedButton(
                   onPressed: () {
                     Get.to(AddressPage());

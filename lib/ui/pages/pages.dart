@@ -1,4 +1,6 @@
 import 'package:flutter/cupertino.dart';
+// ignore: unused_import
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
@@ -6,6 +8,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:foodmarket/shared/shared.dart';
 import 'package:foodmarket/ui/widgets/widgets.dart';
 import 'package:foodmarket/models/models.dart';
+// ignore: unused_import
 import 'package:get/get_connect/http/src/utils/utils.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:supercharged/supercharged.dart';

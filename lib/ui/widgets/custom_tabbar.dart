@@ -30,6 +30,7 @@ class CustomTabBar extends StatelessWidget {
                         children: [
                           GestureDetector(
                             onTap: () {
+                              // ignore: unnecessary_null_comparison
                               if (onTap != null) {
                                 onTap(titles.indexOf(e));
                               }

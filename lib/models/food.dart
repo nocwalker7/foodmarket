@@ -1,6 +1,7 @@
 part of 'models.dart';
 
 class Food {
+  // ignore: unused_field
   int? _id = 1;
 
   final int id;

@@ -17,6 +17,7 @@ class CustomBottomNavBar extends StatelessWidget {
         children: [
           GestureDetector(
             onTap: () {
+              // ignore: unnecessary_null_comparison
               if (onTap != null) {
                 onTap(0);
               }
@@ -35,6 +36,7 @@ class CustomBottomNavBar extends StatelessWidget {
           ),
           GestureDetector(
             onTap: () {
+              // ignore: unnecessary_null_comparison
               if (onTap != null) {
                 onTap(1);
               }
@@ -54,6 +56,7 @@ class CustomBottomNavBar extends StatelessWidget {
           ),
           GestureDetector(
             onTap: () {
+              // ignore: unnecessary_null_comparison
               if (onTap != null) {
                 onTap(2);
               }

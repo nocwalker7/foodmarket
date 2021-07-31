@@ -19,6 +19,7 @@ class _AddressPageState extends State<AddressPage> {
     TextEditingController phoneController = TextEditingController();
     TextEditingController addressController = TextEditingController();
     TextEditingController houseNumController = TextEditingController();
+    // ignore: unused_local_variable
     TextEditingController cityController = TextEditingController();
 
     return GeneralPage(
@@ -147,6 +148,7 @@ class _AddressPageState extends State<AddressPage> {
                 margin: EdgeInsets.only(top: 24),
                 height: 45,
                 padding: EdgeInsets.symmetric(horizontal: defaultMargin),
+                // ignore: deprecated_member_use
                 child: RaisedButton(
                   onPressed: () {},
                   elevation: 0,
